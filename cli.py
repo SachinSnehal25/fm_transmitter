@@ -10,7 +10,7 @@ def main():
     # Get user inputs
     input_audio = input("Enter the path to your audio file: ").strip()
     output_wav = "converted_audio.wav"
-    frequency = 107.8  # Default frequency
+    frequency = 107.9  # Default frequency
 
     # Convert and transmit
     convert_audio_to_wav(input_audio, output_wav)
